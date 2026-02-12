@@ -1,0 +1,12 @@
+git by Vamsi bhavani
+
+total 4 stages are there 
+1.working directory
+2.staging area
+3.local repository
+4.remote repository
+
+1.first we have to initialize the git by using command - git init
+it shows the initilization of empty git repository
+2.if check the git status we will get to know the untracked files - git status
+
