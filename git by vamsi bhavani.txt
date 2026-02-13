@@ -1,12 +1,49 @@
 git by Vamsi bhavani
 
+one repository contain multiple branches   
+we can create the multiple branches  that code is push into the main/master branch
+we can create the multiple branches we can jump from the multiple branches
+- git checkout -b "branchname"    = this is used to create the new branch and switch to new branch
+- git checkout "branchname"	= used to switch existed branch
+when we are pushing the branches select the particular branch 
+-git push --set-upstrams origin branchName
+
+-git remote -v  this command is used for the check the current repository
+-git remote remove origin   = this command is used to remove the current repository
+-git remote add origin  URL  = this is for adding the again url 
+-git remote set-url origin URL  = this is the way to switch the URL from the current URL
+
+
+
+
+
 total 4 stages are there 
-1.working directory
-2.staging area
-3.local repository
-4.remote repository
+1.working directory     - git status
+2.staging area		- git add filename.txt    or  git add .
+3.local repository	- git commit -m"message"
+	now we have to add the remote repository nothing but url
+			- git remote add origin URL
+	
+4.remote repository	- git push -u origin main
 
 1.first we have to initialize the git by using command - git init
 it shows the initilization of empty git repository
 2.if check the git status we will get to know the untracked files - git status
+3 - git add filename    is used for staging area
+4 check the git status it shows the green the files what are the added
+5 do git commit -m"message"
+6 check the git status
+7 now we have to add the remote repository nothing but url than check the git status
+8 push the code to main branch - git push -u origin main
+
+issues
+if any branch problem check the branches -git branch
+git push -u origin branchName
+
+
+
+
+
+
+
 
