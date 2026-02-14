@@ -1,0 +1,7 @@
+spring.application.name=demoDev
+
+
+#enable the sql logging
+spring.jpa.show-sql=true
+#to show the sql readable format
+spring.jpa.properties.hibernate.format_sql=true
