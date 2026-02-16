@@ -1,0 +1,5 @@
+package com.dev.collections.service;
+
+public class PersonService {
+
+}
