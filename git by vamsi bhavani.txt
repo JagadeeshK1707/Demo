@@ -12,6 +12,8 @@ when we are pushing the branches select the particular branch
 -git remote remove origin   = this command is used to remove the current repository
 -git remote add origin  URL  = this is for adding the again url 
 -git remote set-url origin URL  = this is the way to switch the URL from the current URL
+-rm -rf .git   =     this commend for remove the git initiliation files in the nested repository
+-git rm --cached -r collectionsSboot  =    removing the cached entry
 
 
 
